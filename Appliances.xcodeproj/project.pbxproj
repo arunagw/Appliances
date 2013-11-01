@@ -10,6 +10,8 @@
 		7D924DE3182318CF00EA3250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D924DE2182318CF00EA3250 /* Foundation.framework */; };
 		7D924DE6182318CF00EA3250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D924DE5182318CF00EA3250 /* main.m */; };
 		7D924DEA182318CF00EA3250 /* Appliances.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D924DE9182318CF00EA3250 /* Appliances.1 */; };
+		7D924DF21823190600EA3250 /* Appliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D924DF11823190600EA3250 /* Appliance.m */; };
+		7D924DF518231E0D00EA3250 /* OwnerAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D924DF418231E0D00EA3250 /* OwnerAppliance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		7D924DE5182318CF00EA3250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D924DE8182318CF00EA3250 /* Appliances-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appliances-Prefix.pch"; sourceTree = "<group>"; };
 		7D924DE9182318CF00EA3250 /* Appliances.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Appliances.1; sourceTree = "<group>"; };
+		7D924DF01823190600EA3250 /* Appliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appliance.h; sourceTree = "<group>"; };
+		7D924DF11823190600EA3250 /* Appliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appliance.m; sourceTree = "<group>"; };
+		7D924DF318231E0D00EA3250 /* OwnerAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnerAppliance.h; sourceTree = "<group>"; };
+		7D924DF418231E0D00EA3250 /* OwnerAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnerAppliance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,8 @@
 		7D924DD6182318CF00EA3250 = {
 			isa = PBXGroup;
 			children = (
+				7D924DF01823190600EA3250 /* Appliance.h */,
+				7D924DF11823190600EA3250 /* Appliance.m */,
 				7D924DE4182318CF00EA3250 /* Appliances */,
 				7D924DE1182318CF00EA3250 /* Frameworks */,
 				7D924DE0182318CF00EA3250 /* Products */,
@@ -74,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				7D924DE5182318CF00EA3250 /* main.m */,
+				7D924DF318231E0D00EA3250 /* OwnerAppliance.h */,
+				7D924DF418231E0D00EA3250 /* OwnerAppliance.m */,
 				7D924DE9182318CF00EA3250 /* Appliances.1 */,
 				7D924DE7182318CF00EA3250 /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D924DE6182318CF00EA3250 /* main.m in Sources */,
+				7D924DF518231E0D00EA3250 /* OwnerAppliance.m in Sources */,
+				7D924DF21823190600EA3250 /* Appliance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
